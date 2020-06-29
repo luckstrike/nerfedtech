@@ -9,21 +9,6 @@
   text-align: center;
 }
 
-/* Figure this part out later
-.sidebar a.active {
-  background-color: #4CAF50;
-  color: white;
-}  */
-
-.represent img {
-  margin: 20px;
-  /*border-radius: 50%;*/
-}
-
-#email {
-  padding: 0;
-  margin: 0;
-}
 .sidebar a:hover:not(.active) {
   text-decoration: underline;
   text-decoration-color: #0072BB;
@@ -38,7 +23,8 @@
 }
 
 .links {
-  margin: 30px;
+  margin-top: 10px;
+  margin-bottom: 20px;
 }
 
 .social a {
@@ -50,6 +36,18 @@
 
 .social {
   margin: 30px;
+  margin-bottom: 50px;
+}
+
+.content {
+  margin-left: 300px;
+  padding: 10px;
+  text-align: center;
+}
+
+.built {
+  margin-top: 20px;
+  color: gray;
   filter: grayscale(100%);
 }
 
